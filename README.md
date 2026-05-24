@@ -82,66 +82,7 @@ php artisan serve
 
 Aplikasi akan berjalan di: **http://localhost:8000**
 
-## 👤 Akun Default (Setelah Seed)
 
-### Admin
-- **Username:** `admin`
-- **Password:** `password`
-- **Link:** http://localhost:8000/admin/dashboard
-
-### Guru
-- **Username:** `guru1`
-- **Password:** `password`
-- **Link:** http://localhost:8000/guru/dashboard
-
-- **Username:** `guru2`
-- **Password:** `password`
-
-### Murid
-- **Username:** `murid1`
-- **Password:** `password`
-- **Link:** http://localhost:8000/murid/dashboard
-
-- **Username:** `murid2`
-- **Password:** `password`
-
-## 🔗 Link Akses per Aktor
-
-### Public (Tanpa Login)
-| Fitur | URL |
-|-------|-----|
-| Login | http://localhost:8000/login |
-| Pendaftaran | http://localhost:8000/register |
-
-### Admin
-| Fitur | URL |
-|-------|-----|
-| Dashboard | http://localhost:8000/admin/dashboard |
-| Verifikasi Pendaftaran | http://localhost:8000/admin/registrations |
-| Manajemen User | http://localhost:8000/admin/users |
-| Manajemen Kelas | http://localhost:8000/admin/classes |
-
-### Guru
-| Fitur | URL |
-|-------|-----|
-| Dashboard | http://localhost:8000/guru/dashboard |
-| Kelas Saya | http://localhost:8000/guru/classes |
-| Kelola Pertemuan | http://localhost:8000/guru/classes/{id} |
-| Upload Materi | http://localhost:8000/guru/meetings/{id}/materials/create |
-| Buat Kuis | http://localhost:8000/guru/meetings/{id}/quizzes/create |
-| Buat Tugas | http://localhost:8000/guru/meetings/{id}/assignments/create |
-| Nilai Tugas | http://localhost:8000/guru/assignments/{id}/submissions |
-| Generate Sertifikat | http://localhost:8000/guru/classes/{id}/students/{id}/certificate/generate |
-
-### Murid
-| Fitur | URL |
-|-------|-----|
-| Dashboard | http://localhost:8000/murid/dashboard |
-| Kelas Saya | http://localhost:8000/murid/classes/{id} |
-| Lihat Pertemuan | http://localhost:8000/murid/meetings/{id} |
-| Kerjakan Kuis | http://localhost:8000/murid/quizzes/{id}/take |
-| Kumpul Tugas | http://localhost:8000/murid/assignments/{id}/submit |
-| Sertifikat Saya | http://localhost:8000/murid/certificates |
 
 ## 📊 Struktur Database
 
@@ -204,10 +145,4 @@ Guru generate sertifikat → Sistem hitung rata-rata per skill → Cetak PDF 2 l
 - CSRF protection
 - File upload validation
 
-## 📄 License
 
-MIT License
-
-## 👥 Developer
-
-Dibuat dengan ❤️ untuk LMS Bahasa
